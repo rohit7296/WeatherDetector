@@ -57,33 +57,33 @@ function showWeatherReport (weather){
 	date.innerText = dataManage(todayDate);
 
 	if(weatherType.textContent == 'Clear'){
-		document.body.style.backgroundImage = "url('image/clear.webp')";
+		document.body.style.backgroundImage = "url('pictures/clear.webp')";
 	}else if(weatherType.textContent == 'Haze'){
-		document.body.style.backgroundImage = "url('image/haze.webp')";
+		document.body.style.backgroundImage = "url('pictures/haze.webp')";
 	}else if(weatherType.textContent == 'Clouds'){
-		document.body.style.backgroundImage = "url('image/cloudy.webp')";
+		document.body.style.backgroundImage = "url('pictures/cloudy.webp')";
 	}else if(weatherType.textContent == 'Rain'){
-		document.body.style.backgroundImage = "url('image/rainy.webp')";
+		document.body.style.backgroundImage = "url('pictures/rainy.webp')";
 	}else if(weatherType.textContent == 'Overcast'){
-		document.body.style.backgroundImage = "url('image/overcast.webp')";
+		document.body.style.backgroundImage = "url('pictures/overcast.webp')";
 	}else if(weatherType.textContent == 'Snow'){
-		document.body.style.backgroundImage = "url('image/snow.webp')";
+		document.body.style.backgroundImage = "url('pictures/snow.webp')";
 	}else if(weatherType.textContent == 'Drizzle'){
-		document.body.style.backgroundImage = "url('image/drizzle.webp')";
+		document.body.style.backgroundImage = "url('pictures/drizzle.webp')";
 	}else if(weatherType.textContent == 'Stormy'){
-		document.body.style.backgroundImage = "url('image/stormy.webp')";
+		document.body.style.backgroundImage = "url('pictures/stormy.webp')";
 	}else if(weatherType.textContent == 'Thunderstorm'){
-		document.body.style.backgroundImage = "url('image/thunderstorm.webp')";
+		document.body.style.backgroundImage = "url('pictures/thunderstorm.webp')";
 	}else if(weatherType.textContent == 'Fog'){
-		document.body.style.backgroundImage = "url('image/fog.webp')";
+		document.body.style.backgroundImage = "url('pictures/fog.webp')";
 	}else if(weatherType.textContent == 'Sandstorm'){
-		document.body.style.backgroundImage = "url('image/sandstorm.webp')";
+		document.body.style.backgroundImage = "url('pictures/sandstorm.webp')";
 	}else if(weatherType.textContent == 'Mist'){
-		document.body.style.backgroundImage = "url('image/mist.webp')";
+		document.body.style.backgroundImage = "url('pictures/mist.webp')";
 	}else if(weatherType.textContent == 'Dust'){
-		document.body.style.backgroundImage = "url('image/dust.webp')";
+		document.body.style.backgroundImage = "url('pictures/dust.webp')";
 	}else if(weatherType.textContent == 'Smoke'){
-		document.body.style.backgroundImage = "url('image/mist.webp')";
+		document.body.style.backgroundImage = "url('pictures/mist.webp')";
 	} 
 }
 
